@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('id_produk', 5);
             $table->integer('jumlah')->nullable();
             $table->decimal('harga', 10, 0)->nullable();
+            $table->timestamps();
 
 
             // 1. Menentukan Primary Key Gabungan (Composite Key)
